@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Programs | fitness</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="1stcss.css">
+</head>
+<body>
+
+
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+  <!-- <a class="navbar-brand" href="#"> -->
+  	<a href="index.html">
+    <img src="my.png" width="300" height="100" alt="" loading="lazy">
+</a>
+  <!-- </a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav " >
+    	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Overview</a>
+          <a class="dropdown-item" href="#">Founders</a>
+          <a class="dropdown-item" href="#">Awards</a>
+          <a class="dropdown-item" href="#">Media</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="programs.html">Programs </a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="HIIT.html">HIIT</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="Membership.html">Membership</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact Us</a>
+      </li>
+      <li class="a" class="nav-item ">
+      	<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Own a franchise</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Own a franchise</h5>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">X</button>
+      </div>
+      <div class="modal-body">
+        <img src="my27.png" width="100%">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">Full name</label>
+      <input type="text" class="form-control" id="validationCustom01"  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02">email id</label>
+      <input type="text" class="form-control" id="validationCustom02"  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Mobile no.</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Planned city</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" id="sendmsg" class="btn btn-primary" data-dismiss="modal">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-white"></nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning"></nav>
+	<section>
+  <div class="container">
+  <div class="row">
+    <div class="col-9"></div>
+    <div class="col-4"><br>
+      <h3 id="p">Programs</h3>
+        <ul class="list-unstyled">
+          <li onclick="hiit()">
+            <a href="#">
+            HIIT Training</a>
+          </li>
+          <li onclick="functional()">
+            <a href="#">Functional training</a>
+          </li>
+          <li onclick="personal()">
+            <a href="#">
+            Personal Training</a>
+          </li>
+
+          <li onclick="MMa()">
+            <a href="#">  MMA</a>          
+          </li>
+          <li onclick="yoga()">
+           <a href="#"> Yoga </a>
+          </li>
+          <li onclick="boxing()">
+            <a href="#">
+            Boxing</a>
+          </li>
+          <li onclick="calis()">
+            <a href="#">
+            Calisthenics</a>
+          </li>
+          <li onclick="strength()">
+            <a href="#">
+           strength and conditioning</a>
+          </li>
+          <li onclick="looping()">
+            <a href="#">
+           Looping</a>
+          </li>
+          <li onclick="weight()">
+            <a href="#">
+           Weight Training</a>
+          </li>
+          <li onclick="trans()">
+            <a href="#">
+           Transformation</a>
+          </li>
+
+        </ul>
+
+    </div>
+    <div id="" class="col-8"><br>
+      <div id="info" class="shadow-sm p-3 mb-5 bg-white rounded" class="item">
+        <p>
+          <h2>
+          <li>
+            PROGRAMS
+          </li>
+          </h2>
+          MultiFit believes that fitness should extend beyond dumbbells and machines and aims at changing the definition of fitness from mere ‘Body Building’ to ‘Strength Building’. It believes in integrating science and fitness training to facilitate its clients in attaining the perfect Mind-Body-Soul balance and aims to make fitness a lifestyle choice for every individual they engage with. Keeping to this belief MultiFit offers a wide variety of unconventional workouts including functional training, customized circuits, boot camps and outdoor training, thus ensuring that your sessions are never boring.
+
+        </p>
+
+
+      </div>
+
+ <!--  -->
+
+
+    </div>
+  </div>
+</div>
+</section>
+  <script type="text/javascript" src="js3.js"></script>
+<svg height="1" width="1520">
+  <line x1="0" y1="0" x2="1520" y2="00" style="stroke:rgb(0,0,0);stroke-width:2" />
+</svg>
+  <div class="container">
+  <div class="row">
+    <div class="col"><img src="my.png" width="300" height="100" alt="" loading="lazy"></div>
+    <div class="col"><div class="card" style="width: 18rem;">
+  <img src="power.png"  class="card-img-top" alt="..."> 
+  </div></div>
+</div>
+</div>
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h4 class="whit">Company</h4>
+      <ul class = "list-unstyled">
+        <li>
+          <a href="#" > <h6 class="whit"> Terms & Conditions </h6> </a>
+        </li>
+        <li>
+          <a href="# "><h6 class="whit">Privacy Policy</h6>  </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <h4 class="whit">Get Assistance </h4>
+      <ul class = "list-unstyled">
+        <li>
+          <a href="#" > <h6 class="whit">Email ID: info@fitcentergym.co.in </h6> </a>
+        </li>
+        <li>
+          <a href="# "><h6 class="whit">Contact Us: 020 6747 3400</h6>  </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <h4 class="whit">Locate Us </h4>
+      <ul class = "list-unstyled">
+        <li>
+          <a href="#" > <h6 class="whit">Head Office </h6> </a>
+        </li>
+        <li>
+          <a href="# "><h6 class="whit">Centers</h6>  </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<h4>Follow Us On</h4>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+</footer>
+    <script type="text/javascript " src="js3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
